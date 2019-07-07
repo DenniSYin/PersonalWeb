@@ -1,3 +1,18 @@
 import React from "react"
+import { Link } from "gatsby"
 
-export default () => <div>Hello world!</div>
+const IndexPage = () =>{
+    return (
+        <div>
+            <h1>Hello.</h1>
+            <h2>I'm Denis, a full-stack developer living in Sydney</h2>
+            {/* <p>Need a developer?<a href="/contact">Contact me.</a></p> */}
+            <p>Need a developer? <Link to ="/contact">Contact me.</Link></p>
+
+        </div>
+    )
+}
+// export default () => <div>Hello world!</div>
+
+
+export default IndexPage
